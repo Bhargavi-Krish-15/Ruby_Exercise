@@ -20,3 +20,6 @@ puts "Is it greater? #{5>-2}"
 puts "Is it greater than or equal to ? #{5>=2}"
 puts "Is it less than or equal to ? #{5<= -2}"
 #using < or > gives boolean result
+
+puts "addition in float: #{3.01 + 11}"
+#using floating point
