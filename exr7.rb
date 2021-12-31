@@ -4,6 +4,7 @@ puts "Mary had a little lamb"
 puts "It's fleece was white as #{'snow'}." # '#{} prints numbers , strings , expression , but doesnt allow undeclared variables'
 puts "And every where the Mary went."
 puts "." * 10   #print '.' 10 times
+
 puts 'Using single quotes tells to leave the string alone and ignore the #{"variable"} inside it.'
 puts " using double quotes tells to replace the variable it finds with #{'#{}'}"
 
