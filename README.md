@@ -144,7 +144,7 @@ Try out the .to_f operation. What does .to_f do?
 
 To play with .to_f more, make a small script that asks for some money and gives back 10% of it. If I give your script 103.4 (dollars), your script gives me back 10.34 in change.
 
-![image](https://user-images.githubusercontent.com/95071003/147867587-f042a529-2f3a-4261-a7a6-ef463f9b685f.png)
+![image](https://user-images.githubusercontent.com/95071003/147867606-74e72b77-39db-4a95-a383-cca1adf63fe2.png)
 
 Exercise - 13: Parameter , unpacking , variables
 
