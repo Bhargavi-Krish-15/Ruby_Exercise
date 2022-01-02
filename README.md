@@ -402,7 +402,7 @@ Try some more complex boolean expressions like cars > people || trucks < cars.
 
 ![image](https://user-images.githubusercontent.com/95071003/147876703-0742e8c5-97b4-4de4-bef3-cb4286b2b2a5.png)
 
-Exercise - 31 Making desicions:
+Exercise - 31: Making desicions:
 
 ![image](https://user-images.githubusercontent.com/95071003/147880007-533d210f-56a8-414a-8edf-11576513aa25.png)
 
@@ -429,4 +429,8 @@ Write a completely new game. Maybe you don't like this one, so make your own. Th
 ![image](https://user-images.githubusercontent.com/95071003/147883147-29ec9b2c-dcf8-4946-ac35-e7dc9b6d9ce0.png)
 
 ![image](https://user-images.githubusercontent.com/95071003/147883169-72584db9-d055-4703-a464-f86b4ad451c6.png)
+
+Exercise - 32:Loops and arrays
+
+![image](https://user-images.githubusercontent.com/95071003/147883627-7331a12d-eb8d-4063-a434-7903f3df628c.png)
 
