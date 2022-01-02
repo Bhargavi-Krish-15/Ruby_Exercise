@@ -330,3 +330,12 @@ Exercise -24: More practice
 ![image](https://user-images.githubusercontent.com/95071003/147868219-94d6c5fa-a17e-48ad-8f71-0d125b4a6791.png)
 
 Exercise -25: Even more practice
+
+![image](https://user-images.githubusercontent.com/95071003/147873887-ac139834-93d8-4e38-9421-e48d71e50bf8.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147873927-ef084f80-a48c-441f-b5cc-e7ef3b353dae.png)
+
+Exercise - 26:Take a test!
+
+![image](https://user-images.githubusercontent.com/95071003/147874493-421307de-44bf-49e7-a6cc-5dda8e4c2a4c.png)
+
