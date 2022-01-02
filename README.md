@@ -402,6 +402,28 @@ Try some more complex boolean expressions like cars > people || trucks < cars.
 
 ![image](https://user-images.githubusercontent.com/95071003/147876703-0742e8c5-97b4-4de4-bef3-cb4286b2b2a5.png)
 
+Exercise - 31 Making desicions:
 
+![image](https://user-images.githubusercontent.com/95071003/147880007-533d210f-56a8-414a-8edf-11576513aa25.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147880029-01bdceb3-0453-4a8a-8b55-2f338ee5d919.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147880200-056f6365-3e30-4288-bb59-817aae5a8231.png)
+
+Make new parts of the game and change what decisions people can make. Expand the game out as much as you can before it gets ridiculous.
+
+![image](https://user-images.githubusercontent.com/95071003/147881759-ced01f2b-2880-49a6-8b3c-82223b380d02.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147881773-80535589-3089-4c58-8c90-96133f131e6f.png)
+
+Write a completely new game. Maybe you don't like this one, so make your own. This is your computer; do what you want.
+
+![image](https://user-images.githubusercontent.com/95071003/147882821-43919453-0e46-4db0-b5f5-51d9d40cd267.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147882827-192a8853-ca54-4d3a-80a4-785c547c8482.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147882834-5436e93b-44dd-40ab-81ad-9c82fb0cd358.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147882802-bc5e94fa-d805-4c9b-9a92-360e030e9c66.png)
 
 
