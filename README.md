@@ -339,3 +339,26 @@ Exercise - 26:Take a test!
 
 ![image](https://user-images.githubusercontent.com/95071003/147874493-421307de-44bf-49e7-a6cc-5dda8e4c2a4c.png)
 
+Exercise - 28: Boolean practice
+
+![image](https://user-images.githubusercontent.com/95071003/147874946-a115e3a3-5d9c-4b4d-807e-052a68b58b73.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147874930-4fe76c52-3b03-443c-8c51-e8049514f9e0.png)
+
+There are a lot of operators in Ruby similar to != and ==. Try to find as many "equality operators" as you can. They should be like < or <=.
+Write out the names of each of these equality operators. For example, I call != "not equal."
+
+==        Equal
+!=        Not Equal
+>=        Greater than or equal to
+<=        Less than or equal to
+<=>       combined comparison operator
+===       Test equality
+.eql?     True is two values are equal of the same type
+equal?    True if two things are same object
+
+Play with Ruby by typing out new Boolean operators, and before you press Enter try to shout out what it is. Do not think about it. Shout the first thing that comes to mind. Write it down, then press Enter, and keep track of how many you get right and wrong.
+
+![image](https://user-images.githubusercontent.com/95071003/147875343-35b93e36-f9f5-4c03-abd5-ae3afffa0c64.png)
+
+
