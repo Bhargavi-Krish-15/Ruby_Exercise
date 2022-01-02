@@ -426,4 +426,7 @@ Write a completely new game. Maybe you don't like this one, so make your own. Th
 
 ![image](https://user-images.githubusercontent.com/95071003/147882802-bc5e94fa-d805-4c9b-9a92-360e030e9c66.png)
 
+![image](https://user-images.githubusercontent.com/95071003/147883147-29ec9b2c-dcf8-4946-ac35-e7dc9b6d9ce0.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147883169-72584db9-d055-4703-a464-f86b4ad451c6.png)
 
