@@ -299,7 +299,7 @@ Research the shorthand notation +=, and rewrite the script to use += instead.
 
 currentline = currentline + 1 is same as currentline += 1
 
-Exercise -20: Functions can return something
+Exercise -21: Functions can return something
 
 ![image](https://user-images.githubusercontent.com/95071003/147854293-dafc96b1-53cf-42f1-84aa-b5dc2d1e28d2.png)
 
@@ -325,4 +325,8 @@ Remove the word return, and see if the script still works. You'll find that it d
 
 ![image](https://user-images.githubusercontent.com/95071003/147855521-217ca989-706d-4dc3-bb48-d1d61c65b3c5.png)
 
+Exercise -24: More practice
 
+![image](https://user-images.githubusercontent.com/95071003/147868219-94d6c5fa-a17e-48ad-8f71-0d125b4a6791.png)
+
+Exercise -25: Even more practice
