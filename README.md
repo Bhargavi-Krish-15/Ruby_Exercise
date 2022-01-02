@@ -361,4 +361,32 @@ Play with Ruby by typing out new Boolean operators, and before you press Enter t
 
 ![image](https://user-images.githubusercontent.com/95071003/147875343-35b93e36-f9f5-4c03-abd5-ae3afffa0c64.png)
 
+![image](https://user-images.githubusercontent.com/95071003/147875444-b84ad010-c41f-4960-8d55-7bdef3eef146.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147875494-5bc12787-fbec-4189-9b71-c2cd23d9080e.png)
+
+Exercise -29: What if
+
+![image](https://user-images.githubusercontent.com/95071003/147875724-f2c9ebcb-45e6-4ba5-9939-8955ca98ed88.png)
+
+What do you think the if does to the code under it?
+If the condition given is true it allows to execute the code under it. If the condition is false , it does not enter inside the if statement.
+
+Why does the code under the if need to be indented two spaces? What happens if it isn't indented?
+
+![image](https://user-images.githubusercontent.com/95071003/147875867-32d46c20-16e3-408b-85ca-179d9e67083c.png)
+
+Indendation is actually not required , but it makes the code look cleaner and organised , hence we use it which is the best practice.
+
+Can you put other boolean expressions from Exercise 27 in the if-statement? Try it.
+
+![image](https://user-images.githubusercontent.com/95071003/147876048-8a097409-d331-4c5c-b89f-532f76aa921f.png)
+
+What happens if you change the initial values for people, cats, and dogs?
+I tried changing the value of people to be 20 , cat to be 16:
+
+![image](https://user-images.githubusercontent.com/95071003/147876125-d7926ab7-1c01-46fe-b898-67c8fedc264d.png)
+
+
+
 
