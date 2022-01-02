@@ -434,3 +434,17 @@ Exercise - 32:Loops and arrays
 
 ![image](https://user-images.githubusercontent.com/95071003/147883627-7331a12d-eb8d-4063-a434-7903f3df628c.png)
 
+Take a look at how you used (0..5) in the last for-loop. Look up Ruby's "range operator" (.. and ...) online to see what it does.
+The ruby's range operator is used to loop through the range of integers with dots like (first_element .. last_element) , which include both first and last element;
+(first_element ... last_element) which include only the first element and does not include the last element.
+
+Change the first for number in the_count to be a more typical .each style loop like the others.
+
+![image](https://user-images.githubusercontent.com/95071003/147884001-daf08f82-c143-48a9-8aa3-baf3bdad1325.png)
+
+Find the Ruby documentation on arrays and read about them. What other operations can you do besides the push function? Try <<, which is the same as push but is an operator. fruits << x is the same as fruits.push(x).
+
+we cna do operations like find lenght ,access first , last elements of the array ,take , drop , pop , shift , push , unshift , delete , reverese , select , include? , join , each , uniq ,concat , new , 
+
+![image](https://user-images.githubusercontent.com/95071003/147884250-d1fbea3e-2876-4022-8ff8-770fc96e77db.png)
+
