@@ -387,6 +387,21 @@ I tried changing the value of people to be 20 , cat to be 16:
 
 ![image](https://user-images.githubusercontent.com/95071003/147876125-d7926ab7-1c01-46fe-b898-67c8fedc264d.png)
 
+Exercise -30: else and if
+
+![image](https://user-images.githubusercontent.com/95071003/147876408-e0ef7457-daf5-41cd-b0ef-c45a896e23bb.png)
+
+Try to guess what elsif and else are doing.
+If the if condition is not true , it executes the elsif code . If both the elsif and if condition are false , it goes to the else part.
+
+Change the numbers of cars, people, and trucks, and then trace through each if-statement to see what will be printed.
+
+![image](https://user-images.githubusercontent.com/95071003/147876496-c18ca8e1-fa25-42aa-a540-176a1e77720a.png)
+
+Try some more complex boolean expressions like cars > people || trucks < cars.
+
+![image](https://user-images.githubusercontent.com/95071003/147876703-0742e8c5-97b4-4de4-bef3-cb4286b2b2a5.png)
+
 
 
 
