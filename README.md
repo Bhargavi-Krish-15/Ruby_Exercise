@@ -349,12 +349,19 @@ There are a lot of operators in Ruby similar to != and ==. Try to find as many "
 Write out the names of each of these equality operators. For example, I call != "not equal."
 
 ==        Equal
+
 !=        Not Equal
+
 >=        Greater than or equal to
+
 <=        Less than or equal to
+
 <=>       combined comparison operator
+
 ===       Test equality
+
 .eql?     True is two values are equal of the same type
+
 equal?    True if two things are same object
 
 Play with Ruby by typing out new Boolean operators, and before you press Enter try to shout out what it is. Do not think about it. Shout the first thing that comes to mind. Write it down, then press Enter, and keep track of how many you get right and wrong.
