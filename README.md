@@ -547,4 +547,8 @@ Exercie - 36:Designing and debugging
 
 ![image](https://user-images.githubusercontent.com/95071003/147940697-46c55770-f589-4ea9-b4bb-3c663aa5d3dc.png)
 
+Exercise - 38:Doing things to array
+
+![image](https://user-images.githubusercontent.com/95071003/147955691-c3776042-f091-407e-9fde-0fa89c84a0a6.png)
+
 
