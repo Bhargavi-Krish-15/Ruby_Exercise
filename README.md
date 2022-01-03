@@ -484,4 +484,22 @@ I think we dont need increement , the for loop automatically increements everyti
 
 ![image](https://user-images.githubusercontent.com/95071003/147903425-3b93f332-33a0-445b-8461-79e62dca201d.png)
 
+Exercise - 34: Accesing elements of array
+
+![image](https://user-images.githubusercontent.com/95071003/147904883-964424df-6d53-4df0-bdd1-07707fa721a0.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147904904-e17139ed-4906-40b3-9a5e-446bc212e132.png)
+
+With what you know of the difference between these types of numbers, can you explain why the year 2010 in "January 1, 2010," really is 2010 and not 2009? (Hint: you can't pick years at random.)
+Maybe it is because people use ordinal way of using calendar , which starts from 1 not from 0 .
+
+Write some more arrays and work out similar indexes until you can translate them.Use Ruby to check your answers.
+
+![image](https://user-images.githubusercontent.com/95071003/147905871-db57d6d8-db2d-4e95-824e-396f75c67251.png)
+
+Exercise -35: Branches and function
+
+
+
+
 
