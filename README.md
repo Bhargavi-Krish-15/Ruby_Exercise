@@ -507,9 +507,19 @@ Draw a map of the game and how you flow through it.
 
 ![image](https://user-images.githubusercontent.com/95071003/147911188-c55118b1-2a85-4fe8-80af-ca3064f6a4a8.png)
 
+Add more to the game. What can you do to both simplify and expand it?
 
+![image](https://user-images.githubusercontent.com/95071003/147921730-ac900bbf-5bc3-4ca1-a9bc-729ee51d6203.png)
 
+The gold_room has a weird way of getting you to type a number. What are all the bugs in this way of doing it? Can you make it better than what I've written? Look at how =~ works for clues.
+The include command checks if we enter number with 0's and 1's , and if we did not enter without 0's and 1's , we might not succeed.
+Instead , there is a method to check if the given value is number or not .  We can use "is_a" method .This would return false if we entered a string.
 
+![image](https://user-images.githubusercontent.com/95071003/147923588-c48a4a63-03a0-4a1a-af4a-a04749e2e4b6.png)
 
+![image](https://user-images.githubusercontent.com/95071003/147924036-7b66c144-ee47-4a34-9ee3-e23d282a9a47.png)
+
+There is also another way which is using "=~"
+=~ is Ruby's basic pattern-matching operator. When one operand is a regular expression and the other is a string then the regular expression is used as a pattern to match against the string.
 
 
