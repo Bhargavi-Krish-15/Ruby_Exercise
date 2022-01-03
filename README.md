@@ -499,6 +499,16 @@ Write some more arrays and work out similar indexes until you can translate them
 
 Exercise -35: Branches and function
 
+![image](https://user-images.githubusercontent.com/95071003/147908002-dc518916-3e62-40ba-936c-2b4df5eebd6a.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147908255-7f07094f-300f-4b87-936a-9948743722f8.png)
+
+Draw a map of the game and how you flow through it.
+
+![image](https://user-images.githubusercontent.com/95071003/147911188-c55118b1-2a85-4fe8-80af-ca3064f6a4a8.png)
+
+
+
 
 
 
