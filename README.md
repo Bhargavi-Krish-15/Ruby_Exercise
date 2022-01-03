@@ -522,4 +522,22 @@ Instead , there is a method to check if the given value is number or not .  We c
 There is also another way which is using "=~"
 =~ is Ruby's basic pattern-matching operator. When one operand is a regular expression and the other is a string then the regular expression is used as a pattern to match against the string.
 
+Exercie - 36:Designing and debugging
+
+![image](https://user-images.githubusercontent.com/95071003/147940230-b454b397-25e6-4a19-b9c0-dfc2bb54dc7e.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147940306-5c622ce9-d963-41bc-8cf5-2e203a5cb7ca.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147940333-c5aa2eca-958e-4e2c-be00-53ab49d9d80f.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147940355-00bbd8f3-0a63-4b24-a90e-2861016338bf.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147940375-cfe8b57b-68c1-4301-b834-a9515ea7d284.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147940521-343e9c3a-03dc-4652-ac6d-498b45c07e36.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147940644-32cfb895-0075-4f9c-a4d0-a7713cfb7268.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147940697-46c55770-f589-4ea9-b4bb-3c663aa5d3dc.png)
+
 
