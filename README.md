@@ -448,3 +448,40 @@ we cna do operations like find lenght ,access first , last elements of the array
 
 ![image](https://user-images.githubusercontent.com/95071003/147884250-d1fbea3e-2876-4022-8ff8-770fc96e77db.png)
 
+Exrecise -33: While loops
+
+![image](https://user-images.githubusercontent.com/95071003/147902183-f6195207-990c-4e48-9750-43208737ec51.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147902310-82c37f65-bab3-416f-8154-725dd7d2e2bc.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147902324-a922b59f-0e08-43b0-b784-9acda8bcb418.png)
+
+Convert this while-loop to a function that you can call, and replace 6 in the test (i < 6) with a variable.
+
+![image](https://user-images.githubusercontent.com/95071003/147902662-58050f2a-3569-4160-b59d-9ab94dfa8641.png)
+
+Use this function to rewrite the script to try different numbers.
+
+![image](https://user-images.githubusercontent.com/95071003/147902730-202bd582-967e-49ff-9be3-c7ac4d6c4e4e.png)
+
+Add another variable to the function arguments that you can pass in that lets you change the + 1 on line 8 so you can change how much it increments by.
+
+![image](https://user-images.githubusercontent.com/95071003/147902866-03e331d2-65c6-4e2e-a97c-006da325ffa8.png)
+
+Rewrite the script again to use this function to see what effect that has.
+
+![image](https://user-images.githubusercontent.com/95071003/147902887-4633e94a-e4bf-44de-9025-1a4d290ce297.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147902908-ce1e57ac-01f4-4ff0-b764-cb5a47ee8917.png)
+
+![image](https://user-images.githubusercontent.com/95071003/147902921-e34a4982-d397-46c8-86e4-bc42faa08b55.png)
+
+Write it to use for-loops and (0 .. 6) range operator. Do you need the incrementor in the middle anymore? What happens if you do not get rid of it?
+
+![image](https://user-images.githubusercontent.com/95071003/147903188-d0e49773-5191-4d55-9b32-576b920638a8.png)
+
+I think we dont need increement , the for loop automatically increements everytime it runs the loop . Even using increement , there is no change in result
+
+![image](https://user-images.githubusercontent.com/95071003/147903425-3b93f332-33a0-445b-8461-79e62dca201d.png)
+
+
