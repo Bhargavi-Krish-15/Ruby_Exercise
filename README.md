@@ -672,6 +672,8 @@ Inheritance:
 Allows the extension of functionality from one class to another class.
 We will create a super class and create sub class from that superclass , which will inherit all of the functionality and all of the attribute from the original super class.
 
+Polymorphism:
+
 The ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object
 
 
