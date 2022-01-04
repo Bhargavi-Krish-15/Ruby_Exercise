@@ -645,7 +645,34 @@ See if you can hack on this and make it do more things. Don't worry if you have 
 
 ![image](https://user-images.githubusercontent.com/95071003/148055210-f0c6584a-3fb0-4801-97d6-0fb36b9b8e7e.png)
 
+Search online for "object-oriented programming" and try to overflow your brain with what you read. Don't worry if it makes absolutely no sense to you. Half of that stuff makes no sense to me too.
 
+Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
+
+Additional benefits of OOP include code reusability, scalability and efficiency.
+
+Structure of object-oriented programming:
+
+![image](https://user-images.githubusercontent.com/95071003/148056795-49c8c9d1-194f-4084-b611-4b3b43f6095d.png)
+
+Main principles of OOP:
+
+![image](https://user-images.githubusercontent.com/95071003/148056954-90edd6dd-f5ab-46ef-88ca-738a17f48eba.png)
+
+Abstraction:
+
+the process of taking away or removing characteristics from something in order to reduce it to a set of essential characteristics
+
+Encapsulation:
+
+A protective shield that prevents the data from being accessed by the code outside this shield.(Data hiding)
+
+Inheritance:
+
+Allows the extension of functionality from one class to another class.
+We will create a super class and create sub class from that superclass , which will inherit all of the functionality and all of the attribute from the original super class.
+
+The ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object
 
 
 
