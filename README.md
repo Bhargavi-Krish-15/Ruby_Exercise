@@ -699,3 +699,10 @@ Exercise -42 : is-a , has-a
 
 ![image](https://user-images.githubusercontent.com/95071003/148080170-abfe37f0-fc5f-4f94-975c-3d69f0b778bd.png)
 
+Research why Ruby added this strange object class and what that means.
+
+Object is the default root of all Ruby objects. Object inherits from BasicObject which allows creating alternate object hierarchies. Methods on Object are available to all classes unless explicitly overridden.
+
+Is it possible to use a class like it's an object?
+
+Yes , because class inherits from object , where every class is an instance of the sub class of object.
