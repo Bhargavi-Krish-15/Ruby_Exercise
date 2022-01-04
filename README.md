@@ -551,4 +551,38 @@ Exercise - 38:Doing things to array
 
 ![image](https://user-images.githubusercontent.com/95071003/147955691-c3776042-f091-407e-9fde-0fa89c84a0a6.png)
 
+Take each function that is called, and go through the steps for function calls to translate them to what Ruby does. For example, more_stuff.pop() is pop(more_stuff).
 
+![image](https://user-images.githubusercontent.com/95071003/148013400-14e14e43-d3ef-431e-9346-9ffc66280497.png)
+
+Translate these two ways to view the function calls in English. For example, more_stuff.pop() reads as, "Call pop on more_stuff." Meanwhile, pop(more_stuff) means, "Call pop with argument more_stuff." Understand how they are really the same thing.
+
+![image](https://user-images.githubusercontent.com/95071003/148013763-8bd40c88-d989-436e-ab33-2307462ca3e7.png)
+
+Go read about "object-oriented programming" online. Confused? I was too. Do not worry. You will learn enough to be dangerous, and you can slowly learn more later.
+
+Object Oriented programming is a computer programming model that organizes software designs around data or objects , rather than functions and logic.An object can also be defined as data field where it has unique attributes and behavior.
+Every value in Ruby is an object, even the most primitive things: strings, numbers and even true and false.
+
+Read up on what a "class" is in Ruby. Do not read about how other languages use the word "class." That will only mess you up.
+
+Ruby allows us to create our own datatypes that will allow us to represent our every living and nonlivings.. 
+We can do this representation inside our program and create our own data type .This is possible using "class".
+Class is a custom data type , so basically we are modelling a real world object/entity inside our program
+A class provides the blueprints for objects, and these object are created from class.
+
+Find 10 examples of things in the real world that would fit in an array. Try writing some scripts to work with them.
+
+1. Deck of cards 
+2. Book pages
+3. chess
+4. Address book 
+5. Song playlist
+6. Product stored in a shopping cart
+7. Surfing online sites
+8. People waiting in queue
+9. Menu card
+10. Appoinments
+
+
+12. 
