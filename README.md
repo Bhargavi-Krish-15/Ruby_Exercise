@@ -621,6 +621,13 @@ They do not have order , they are ordered by the way we insert ; but they can be
 
 ![image](https://user-images.githubusercontent.com/95071003/148030066-7330a09e-e274-4955-9edd-eca527521653.png)
 
+Exercise - 40: Modules , classes and objects
+
+![image](https://user-images.githubusercontent.com/95071003/148047217-6464efb4-9f85-4033-b46b-75b06cd71c62.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148048813-7b67eb56-0fe4-4e28-9ff4-f8850dea0104.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148048874-74873556-6af5-4259-bc1c-db2cbc02140d.png)
 
 
 
