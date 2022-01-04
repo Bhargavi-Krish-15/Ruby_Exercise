@@ -705,4 +705,16 @@ Object is the default root of all Ruby objects. Object inherits from BasicObject
 
 Is it possible to use a class like it's an object?
 
-Yes , because class inherits from object , where every class is an instance of the sub class of object.
+Yes , because class inherits from object , where every class is an instance of the sub class of object , because every class is instance of a class
+
+Fill out the animals, fish, and people in this exercise with functions that make them do things. See what happens when functions are in a "base class" like Animal versus in, say, Dog.
+
+If we say that an animal class has a function like speak , its child class dog also will have that function
+Below example animal is super class for dog and cat , hence both inherit their properties.
+
+![image](https://user-images.githubusercontent.com/95071003/148092063-72a7308c-498f-4f7f-b59c-4a3654119e22.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148092108-1a40f4da-3c11-4bd5-b394-aed4588f4d5c.png)
+
+
+
