@@ -676,7 +676,7 @@ Polymorphism:
 
 The ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object
 
-Exercise - 41:
+Exercise - 41: oops
 
 ![image](https://user-images.githubusercontent.com/95071003/148070482-1149f793-a886-4a7c-8828-233abf1d0805.png)
 
@@ -689,4 +689,13 @@ Exercise - 41:
 ![image](https://user-images.githubusercontent.com/95071003/148073132-327f8da2-074c-4e66-897f-49b6a39cff10.png)
 
 
+Exercise -42 : is-a , has-a
+
+![image](https://user-images.githubusercontent.com/95071003/148079991-d19f63ad-68ff-436d-8035-3865b016b045.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148080103-b4dabbaf-8296-4cff-a3fc-43e5907cb8c0.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148080143-dd9fb939-f651-4179-b07f-d30df044dd09.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148080170-abfe37f0-fc5f-4f94-975c-3d69f0b778bd.png)
 
