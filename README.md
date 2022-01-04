@@ -584,6 +584,8 @@ Find 10 examples of things in the real world that would fit in an array. Try wri
 9. Menu card
 10. Appoinments
 
+![image](https://user-images.githubusercontent.com/95071003/148025215-c83c27f3-aed8-43c3-b3d2-7047a4a5c5bd.png)
+
 
 Exercise -39: Hashes
 
@@ -596,5 +598,30 @@ Exercise -39: Hashes
 ![image](https://user-images.githubusercontent.com/95071003/148017581-9b6e2b63-8a4f-453d-b7ef-42e09a922c42.png)
 
 ![image](https://user-images.githubusercontent.com/95071003/148020224-5859f7d8-e8ad-4eae-87e3-a6521eb3748a.png)
+
+||=  is or equal to operator
+eg: if a|| = b , if a is true (which is like not false or nill) , it will have the value of a , otherwise it has the value of b.
+
+![image](https://user-images.githubusercontent.com/95071003/148024210-28900ee1-3160-420e-afa0-d094c311c42f.png)
+
+Do this same kind of mapping with cities and states/regions in your country or some other country.
+
+![image](https://user-images.githubusercontent.com/95071003/148027176-d0b1b26c-e6f5-4bb7-84c3-0373831e5fe3.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148027118-83b2456d-283c-4d57-8d05-4fbdf76c41ce.png)
+
+Find the Ruby documentation for hashes and try to do even more things to them.
+
+![image](https://user-images.githubusercontent.com/95071003/148029051-c2ceeb51-c3ed-4894-af36-5ab81bb18290.png)
+
+Find out what you can't do with hashes. A big one is that they do not have order, so try playing with that.
+
+Giving key and recieving the value is possible but giving value and getting teh key is not possible.
+They do not have order , they are ordered by the way we insert ; but they can be ordered / sorted based on key.
+
+![image](https://user-images.githubusercontent.com/95071003/148030066-7330a09e-e274-4955-9edd-eca527521653.png)
+
+
+
 
 
