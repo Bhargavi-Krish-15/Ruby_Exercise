@@ -585,4 +585,16 @@ Find 10 examples of things in the real world that would fit in an array. Try wri
 10. Appoinments
 
 
-12. 
+Exercise -39: Hashes
+
+![image](https://user-images.githubusercontent.com/95071003/148016613-f79d1bf8-020c-4914-a4fc-34cf84a52df7.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148017186-940216e0-c45f-478b-843e-9b69a7222617.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148017393-dafc877b-4eac-4a8d-bc71-ceaf4354fe0f.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148017581-9b6e2b63-8a4f-453d-b7ef-42e09a922c42.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148020224-5859f7d8-e8ad-4eae-87e3-a6521eb3748a.png)
+
+
