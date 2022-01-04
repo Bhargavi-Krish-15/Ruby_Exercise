@@ -716,5 +716,13 @@ Below example animal is super class for dog and cat , hence both inherit their p
 
 ![image](https://user-images.githubusercontent.com/95071003/148092108-1a40f4da-3c11-4bd5-b394-aed4588f4d5c.png)
 
+Make some new relationships that are arrays and hashes so you can also have "has-many" relationships.
 
+![image](https://user-images.githubusercontent.com/95071003/148098780-cbee2fd2-59f9-4882-a252-aaccb0fdcc13.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148098869-ea5f79df-7dbb-47c7-9a7d-7d60998626db.png)
+
+Do you think there's such thing as an "is-many" relationship? Read about "multiple inheritance," then avoid it if you can.
+
+Multiple inheritance means that a subclass can inherit from two or more superclasses
 
