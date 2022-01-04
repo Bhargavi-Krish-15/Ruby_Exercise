@@ -629,6 +629,23 @@ Exercise - 40: Modules , classes and objects
 
 ![image](https://user-images.githubusercontent.com/95071003/148048874-74873556-6af5-4259-bc1c-db2cbc02140d.png)
 
+![image](https://user-images.githubusercontent.com/95071003/148051727-359d3b4f-4b84-4344-bfe4-a594f89a2754.png)
+
+Write some more songs using this and make sure you understand that you're passing an array of strings as the lyrics.
+
+![image](https://user-images.githubusercontent.com/95071003/148052358-f3f94920-f298-45b4-be14-c0d7af3fb569.png)
+
+Put the lyrics in a separate variable, then pass that variable to the class to use instead.
+
+![image](https://user-images.githubusercontent.com/95071003/148052901-04ce7572-eda8-46ea-b3a6-8dc76b398346.png)
+
+See if you can hack on this and make it do more things. Don't worry if you have no idea how, just give it a try, see what happens. Break it, trash it, thrash it, you can't hurt it.
+
+![image](https://user-images.githubusercontent.com/95071003/148055023-82e09f41-6594-48cb-b7a2-92dd89c947f9.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148055210-f0c6584a-3fb0-4801-97d6-0fb36b9b8e7e.png)
+
+
 
 
 
