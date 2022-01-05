@@ -726,6 +726,6 @@ Do you think there's such thing as an "is-many" relationship? Read about "multip
 
 Multiple inheritance means that a subclass can inherit from two or more superclasses
 
-Exercise -43 :
+Exercise -43 : Gothon's game
 
 ![image](https://user-images.githubusercontent.com/95071003/148176829-abd05c70-a4d0-4c4a-a52e-cdf68e4c2d3e.png)
