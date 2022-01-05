@@ -768,6 +768,19 @@ Only if we press teh certain key it will give answer ,or else it will wait for t
 
 ![image](https://user-images.githubusercontent.com/95071003/148209424-c57964bb-df71-4254-bb43-e0e02fd46dd2.png)
 
+Exercise - 44: Inheritance , composition
+
+![image](https://user-images.githubusercontent.com/95071003/148210689-68db24b5-1d72-4193-b7cf-59515d86713c.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148211117-a4593d99-70d0-40d4-9a4d-c9d217089add.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148211580-c6992789-c7d1-4a23-a2e0-71aa8181d368.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148212218-b14dfc8a-248c-4e8e-8ca8-6a923d0c67db.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148213951-d5c9d9e2-cbdc-46d8-afc7-e7a1cf08635e.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148215369-566e8bcf-6319-4f45-987d-57bcb864794f.png)
 
 
 
