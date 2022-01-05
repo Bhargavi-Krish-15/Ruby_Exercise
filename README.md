@@ -729,3 +729,45 @@ Multiple inheritance means that a subclass can inherit from two or more supercla
 Exercise -43 : Gothon's game
 
 ![image](https://user-images.githubusercontent.com/95071003/148176829-abd05c70-a4d0-4c4a-a52e-cdf68e4c2d3e.png)
+
+I have a bug in this code. Why is the door lock guessing 11 times?
+
+![image](https://user-images.githubusercontent.com/95071003/148204193-402adb0b-93d4-4204-993f-7cd73551534e.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148204562-2ba44285-6546-4687-ab37-6206a1578f62.png)
+
+That is because we already recieved a guess from the player before entering the condition. That is why we get one time extra.
+
+Explain how returning the next room works
+
+Whatever the result may be either win or lose , this returns a string. This brings the strings to the class engine which is the conducting our game with play function. This string is assigned to the variable next_scene_name , suppose 'death' . How we got that by executing currentscene.enter - which is the 'central_corridor". 
+The next line we give the next_scene_name - 'death' as a parameter the next_scene fuction and this will goes to the map class and execute its function which look at the @@scenes and return the value of its corresponding key "death". Now this will invoke the instance of the death class and we assign it to current_scene. Now current scene changes to death class , current_scene.enter will get inside the enter function of death class.
+
+Add cheat codes to the game so you can get past the more difficult rooms. I can do this with two words on one line.
+
+![image](https://user-images.githubusercontent.com/95071003/148206714-408d32f6-61d4-4d97-8250-c595ad6ab28e.png)
+
+if we want to win easily may we cam assign the code to be like any string instead of using rand function. Hence if the guess match that code , it may goes to the next stage.
+
+Go back to my description and analysis, then try to build a small combat system for the hero and the various Gothons he encounters
+
+May be like we can give health levels to hero and gothans. If the hero gets password worng and tring his chance once again after 10 times , we could make his health level loose one point. If the hero wins one stage , ie if he passes one class and move to another class the aliens can loose one health level point.
+
+This is actually a small version of something called a "finite state machine." Read about them. They might not make sense, but try anyway.
+
+A finite state machine is a mathematical model of computation. It is used to design computer programs and logical circuits.
+There may be a multiple states the system can be in , but it can be in only one state at a time
+Eg: Turnstile -  which we see in substations.
+
+![image](https://user-images.githubusercontent.com/95071003/148208949-15a61f41-e03a-4d0f-844d-51601dc742bb.png)
+
+The machine will be in a locked state first. only if give the coin and press it may get opened. Without giving the coin we cannot move it. Again after giving the coin , the machine will move and wait for us to enter . without entering , if we give another coins , its of no use. the machine is already open. Only if it succeed it goes to next state orelse it ll wait for it succed.
+
+Another example is : Calculator 
+Only if we press teh certain key it will give answer ,or else it will wait for the user to click.
+
+![image](https://user-images.githubusercontent.com/95071003/148209424-c57964bb-df71-4254-bb43-e0e02fd46dd2.png)
+
+
+
+
