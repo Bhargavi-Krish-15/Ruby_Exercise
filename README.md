@@ -782,5 +782,16 @@ Exercise - 44: Inheritance , composition
 
 ![image](https://user-images.githubusercontent.com/95071003/148215369-566e8bcf-6319-4f45-987d-57bcb864794f.png)
 
+Exercise - 45 :
+
+![image](https://user-images.githubusercontent.com/95071003/148420808-d208815a-282a-4acf-8d07-d25640332db1.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148420989-bc4c98fc-8f5b-4aff-b942-684026d56ced.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148421140-65bf1a93-db84-46a4-b4f5-1b183041e5a8.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148421168-e6bacee7-d7f1-405e-af7e-a2e2dfeea164.png)
+
+
 
 
