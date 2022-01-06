@@ -782,7 +782,9 @@ Exercise - 44: Inheritance , composition
 
 ![image](https://user-images.githubusercontent.com/95071003/148215369-566e8bcf-6319-4f45-987d-57bcb864794f.png)
 
-Exercise - 45 :
+Exercise - 45 : You make your game
+
+My sample game.
 
 ![image](https://user-images.githubusercontent.com/95071003/148420808-d208815a-282a-4acf-8d07-d25640332db1.png)
 
