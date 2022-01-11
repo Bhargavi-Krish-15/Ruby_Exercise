@@ -794,6 +794,18 @@ My sample game.
 
 ![image](https://user-images.githubusercontent.com/95071003/148421168-e6bacee7-d7f1-405e-af7e-a2e2dfeea164.png)
 
+after typing form:
+
+![image](https://user-images.githubusercontent.com/95071003/148960818-9e0614c0-1dc8-468d-8336-c840178d5e3a.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148960926-1339bf20-7b8e-4117-a8f2-7385b8455a7f.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148960952-ce39dd60-8fb8-43fb-a5b4-635262b7279f.png)
+
+rake test:
+
+![image](https://user-images.githubusercontent.com/95071003/148963717-d4e412a6-8b76-496b-bd78-b0b7cd695fb8.png)
+
 
 
 
