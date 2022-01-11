@@ -806,6 +806,14 @@ rake test:
 
 ![image](https://user-images.githubusercontent.com/95071003/148963717-d4e412a6-8b76-496b-bd78-b0b7cd695fb8.png)
 
+Read even more about HTML, and give the simple form a better layout. It helps to draw what you want to do on paper and then implement it with HTML.
+
+![image](https://user-images.githubusercontent.com/95071003/148975251-e77a1d8e-76cd-4a9a-9e97-98078aa56081.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148975332-663a2280-1150-444b-8427-2f5a379032e4.png)
+
+This one is hard, but try to figure out how you'd do a file upload form so that you can upload an image and save it to disk.
+
 
 
 
