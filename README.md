@@ -1,6 +1,4 @@
-# Ruby_Exercise
-
-# Ruby_Exercise Outputs
+# RubyExercise Outputs :
 
 Exercise - 1: First good program
 
@@ -11,6 +9,8 @@ put # in the front of the scripts will comment the line.
 Exercise - 2: Comments and pounds
 
 ![image](https://user-images.githubusercontent.com/95071003/147742420-dd42967a-4664-4b06-a93b-1e9151bdb896.png)
+
+Find out if you were right about what the # character does and make sure you know what it's called (octothorpe or pound character).
 
 '#' is called as octothorpe , which is used for commenting the lines of code.
 
@@ -49,6 +49,8 @@ Using both float or integer gives the same answer, but in order to get a precise
 Try running ruby from the Terminal as a calculator like you did before, and use variable names to do your calculations
 
 ![image](https://user-images.githubusercontent.com/95071003/147744159-86221fac-b85a-4895-8e35-96d31f1d609f.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148498016-e7b73b65-32e0-4478-a197-d1c7de41b425.png)
 
 Exercise -5: More variables and printing
 
@@ -96,8 +98,10 @@ Exercise - 9: Printing , printing , printing
 ![image](https://user-images.githubusercontent.com/95071003/147758471-015f7201-4e1c-4c76-95c7-df7bb36c155d.png)
 
 Writing %{Ruby is fun.} is equivalent to "Ruby is fun."
-Writing %Q{ Ruby is fun. } is equivalent to " Ruby is fun. "
-Writing %q[Ruby is fun.] is equivalent to  'Ruby is fun.'(single quotes)
+
+Writing %Q{ Ruby is fun. } is equivalent to " Ruby is fun. "(double quotes)
+
+Writing %q{Ruby is fun.} is equivalent to  'Ruby is fun.'(single quotes)
 
 Exercise -10: What was that?
 
@@ -123,8 +127,10 @@ Exercise -11: Asking questions
 ![image](https://user-images.githubusercontent.com/95071003/147770738-253b1521-0967-47b6-ae6c-a86e19352b82.png)
 
 Go online and find out what Ruby's gets.chomp does.
+
 gets - create a new line and ask the user to input somethings
-gets.chomp - ask the user to input something but does not create a new line.
+
+gets.chomp - ask the user to input something and chomp get rid of the new line character that gets does.
 
 Can you find other ways to use it? Try some of the samples you find.
 
@@ -185,6 +191,10 @@ Add another argument and use it in your script, the same way you did in the prev
 
 ![image](https://user-images.githubusercontent.com/95071003/147817956-2c6500c4-6c2c-4114-b1aa-e7e7004f58f1.png)
 
+Make sure you understand how I combined a """ style multiline string with the #{} format activator as the last print.
+
+Using ''' does not allow to add #{} which print it as string . While using """ will allow variables to add inside #{}.
+
 Exercise -15: Reading files
 
 ![image](https://user-images.githubusercontent.com/95071003/147819358-97ce6122-166c-41a7-b2e5-5ceda0983e64.png)
@@ -223,9 +233,11 @@ There's too much repetition in this file. Use strings, formats, and escapes to p
 ![image](https://user-images.githubusercontent.com/95071003/147828433-9256363e-fe88-45b3-9b18-599ee4a05a04.png)
 
 Find out why we had to pass a 'w' as an extra parameter to open. Hint: open tries to be safe by making you explicitly say you want to write a file.
-if we did not use 'w' as a parameter , the file will open in read mode by default . Hence to write stuff in this file , we need to add 'w' parameter.
+
+If we did not use 'w' as a parameter , the file will open in read mode by default . Hence to write stuff in this file , we need to add 'w' parameter.
 
 If you open the file with 'w' mode, then do you really need the target.truncate()? Read the documentation for Ruby's open function and see if that's true.
+
 If we give a filename that does not exist in command line , this 'w' will create a new file and write to it.
 Truncate method is not necessary as the file opens in write mode , it will automatically rewrite the file.
 And it doesn't matter if the file is in write or read mode , truncate function does work.
@@ -236,7 +248,7 @@ Exercise - 17: More Files
 
 ![image](https://user-images.githubusercontent.com/95071003/147831127-471531e8-6603-4d6d-9cad-936ff9ea9737.png)
 
-This like creating a file test.txt , with content to print in echo command and using cat command to read the file in command line.
+This is like creating a file test.txt  with content to print using echo command and using cat command it is used to read the file in command line.
 
 This script is really annoying. There's no need to ask you before doing the copy, and it prints too much out to the screen. Try to make the script more friendly to use by removing features.
 
@@ -247,12 +259,17 @@ Type man cat to read about it.
 ![image](https://user-images.githubusercontent.com/95071003/147831816-529b0571-91da-45f7-b28f-90d73245183e.png)
 
 Find out why you had to write out_file.close in the code.
+
 When we open the file for writing , our write operation will be hidden in buffer. At some scenarios , buffer writes on the disc . So if we dont close the file , the data we thought that we wrote will not be actually written.
 So it is important to close the file or else , we will lose our data.
 
 Exercise - 18: Name , variable , code , function
 
 ![image](https://user-images.githubusercontent.com/95071003/147848809-00ed756e-b33b-437b-ba3f-eb05ef3e47e0.png)
+
+Functions that don't have parameters do not need the () after them, but would it be clearer if you wrote them anyway?
+
+Using parenthesis after function will have a better understanding than without one. We can also perform function operation without parenthesis.
 
 Exercise -19: Functions and Variables
 
@@ -338,6 +355,19 @@ Exercise -25: Even more practice
 Exercise - 26:Take a test!
 
 ![image](https://user-images.githubusercontent.com/95071003/147874493-421307de-44bf-49e7-a6cc-5dda8e4c2a4c.png)
+
+Take the remaining lines of the What You Should See output and figure out what they are doing. Make sure you understand how you are running your functions in the ex25 module.
+
+![image](https://user-images.githubusercontent.com/95071003/148555340-01b3a2e2-f326-45e9-9dc4-aeecd6b47e60.png)
+
+The Ex25 module doesn't have to be in a file named ex25.rb. Try putting it in a new file with a random name, then import that file and see how you still have Ex25 available even though the file you made does not have ex25 in it.
+
+![image](https://user-images.githubusercontent.com/95071003/148555819-e2566b28-1d35-44de-84c6-fbe915fc367b.png)
+
+Try breaking your file and see what it looks like in irb when you use it. You will have to quit irb with quit() to be able to reload it.
+
+![image](https://user-images.githubusercontent.com/95071003/148556235-57d85392-52f4-4fd7-b5ab-ee16c72d7402.png)
+
 
 Exercise - 28: Boolean practice
 
@@ -794,6 +824,268 @@ My sample game.
 
 ![image](https://user-images.githubusercontent.com/95071003/148421168-e6bacee7-d7f1-405e-af7e-a2e2dfeea164.png)
 
+Exercise - 46 :
+
+Creating the Skeleton Project Directory
+
+![image](https://user-images.githubusercontent.com/95071003/148633505-777898cb-9461-4980-bec8-457c313ff85f.png)
+
+The above command did not work , hence
+
+![image](https://user-images.githubusercontent.com/95071003/148633514-975fad5a-e0d7-415b-b2c8-176fecf86273.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148633702-65dbebce-85bd-4430-86d9-01e506968087.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148633821-75e063ac-f4af-4ed5-bb51-cdd0495b3b60.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148633863-ee1eed7e-5174-4821-8dca-2294dcff2b7f.png)
+
+
+Read about how to use all of the things you installed.
+
+NAME.gemspec – a gemspec is a file that contains information for a gem.
+
+Rakefile – this is the file that the rake program uses to automate tests and generate code
+
+bin – bin stands for binaries, it is where the binary (executable) files go! , not garbage recycle bin
+
+doc – this directory is where you put the documentation for your gem
+
+lib – this directory is where you put the code for the gem.
+
+data – this directory is a place to store application data (for example, database, cache, session files).
+
+ext – this directory is for the extensions of your application.
+
+tests – this directory is where you put the tests for the gem
+
+Read about the NAME.gemspec file, commonly called a "Gemspec", and all it has to offer.
+
+RubyGems is a package manager for the Ruby programming language that provides a standard format for distributing Ruby programs and libraries, a tool designed to easily manage the installation of gems, and a server for distributing them.
+
+And NAMEspec is a gem spec file , that contains the information of that package manager .
+
+Make a project put code into the module, then get the module working. This means you have to change all the files, directories, and modules with NAME in them to the name of your project. If you get stuck, watch the video for this exercise to see how I did it.
+
+![image](https://user-images.githubusercontent.com/95071003/148634177-37306e17-ab2b-47cc-b93a-b4509d261a6e.png)
+
+Put a script in the bin directory that you can run. Read about how you can make a Ruby script that's runnable for your system.
+
+![image](https://user-images.githubusercontent.com/95071003/148634882-e55d6d0a-f4ae-4da6-8d41-12d00a906e99.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148634877-5f3b426f-9bb0-4982-908a-7aed70820cea.png)
+
+ Mention the bin script you created in your Gemspec so that it gets installed.
+ 
+ ![image](https://user-images.githubusercontent.com/95071003/148634956-b1b3130e-69bf-4dca-a528-e470c006624d.png)
+
+Use your Gemspec to install your own module and make sure it works, then use gem to uninstall it.
+
+![image](https://user-images.githubusercontent.com/95071003/148635478-8b699d84-0947-4eb6-9943-221ddd20a37c.png)
+
+
+Exercise - 47: Automated testing
+
+![image](https://user-images.githubusercontent.com/95071003/148635639-7fb875a7-97b7-4f6d-ab2e-93db84cd77e4.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148635628-728e8f3d-11b4-4be9-93f4-2d01fd5ae95e.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148635806-134c2915-9287-4222-81f3-c69499f349cd.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148635916-a86ad42c-92e1-42d3-bebd-59ff03c245ab.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148641106-64af8661-ad30-4270-85b3-9e703b46486e.png)
+
+Go read about Ruby's Test::Unit more, and also read about alternatives.
+
+Test::Unit is a unit testing framework for Ruby. The idea behind unit testing, is to write test methods that make certain assertions about your code, against a test fixture. A test fixture is fixed state of the software that is used as a baseline for making the tests. An assertion is like making a statement about an expected outcome.  “I expect x to be y.”
+The assert_equal method tests if the expected result is equal to the actual result. The syntax is assert_equal(expected, result, failure_message = nil). This method tests if expected is equal to result. 
+
+Write a new test case in tests/test_ex47.rb that creates a miniature version of your game from Exercise 45. This is one function that is similar to the current functions, but using your game's room names and abbreviated descriptions. Remember to use Room.add_paths to create the map, and use assertions to confirm everything works as expected.
+
+![image](https://user-images.githubusercontent.com/95071003/148644922-914e317b-dfcf-4113-bc22-9be40688dfe8.png)
+
+Exercise -48:
+
+![image](https://user-images.githubusercontent.com/95071003/148653834-73e37b13-3a16-4953-979a-fafcafe11f44.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148654019-575c1b65-0210-46f0-a333-6d03dc5ee445.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148654273-f337c284-be70-4f88-b6c8-a5b783dbf038.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148671442-21d855cb-fb7b-433b-a573-032535357552.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148672287-29b8193f-afa4-4e28-8cec-7001854590d0.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148672293-f5ab4d47-9a91-465c-8a69-a35622456795.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148672388-5b84cf1c-e1ef-48cd-91e1-5700465574db.png)
+
+for verb , stops , noun , direction this method will be applicable
+
+if the result stays empty :
+
+![image](https://user-images.githubusercontent.com/95071003/148677945-c5e6a87b-1089-4f26-b206-de8fdc6d197b.png)
+
+if there was a number in string:
+
+![image](https://user-images.githubusercontent.com/95071003/148674462-3f1dd8f7-3c0f-44c5-addb-466b25e3b3bf.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148674436-b9e5fdd5-6e82-481d-a14c-fab6ef993ffa.png)
+
+
+![image](https://user-images.githubusercontent.com/95071003/148677623-e7b8a1f1-62ca-466c-a629-7f02aaf8ffdc.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148677635-0bf02d71-2d21-4f82-a8be-1a326edf4e1c.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148677641-08278190-88b1-4416-ac08-82a3ee39b02e.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148677646-6e9ac9bf-14e4-494d-a9ff-eb7997b5508a.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148677660-f2200a8c-c9bb-4c01-947d-bce5eac0a6c5.png)
+
+Instead of printing the result , i returned the final result at the end of def:
+![image](https://user-images.githubusercontent.com/95071003/148678343-2206a6ce-a084-4784-8a58-ec24b4d107d0.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148686043-17d6408e-ee22-490e-ad40-a490c6745956.png)
+
+I forgot to change string to integer
+
+![image](https://user-images.githubusercontent.com/95071003/148688092-21947947-0453-406c-afaa-6fc78210f54c.png)
+
+Finally after so many trial and error :)
+
+![image](https://user-images.githubusercontent.com/95071003/148691497-68e34181-f5c8-46dc-96d7-6659ea5e02c7.png)
+
+....
+
+Improve the unit test to make sure you test more of the lexicon.
+
+Added more words to dictionary and in the test case:
+Add to the lexicon and then update the unit test.
+
+![image](https://user-images.githubusercontent.com/95071003/148674563-a2b55cd3-dfe3-433e-a08f-15d40c2aed88.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148674575-b0747cc4-7666-465f-b234-6ef5ccc5ca37.png)
+
+Make sure your scanner handles user input in any capitalization and case. Update the test to make sure this actually works.
+If it is in caps , we change to lower case 
+
+![image](https://user-images.githubusercontent.com/95071003/148674648-99f4aadc-5202-4fb9-a49a-a6e7bf4f28b4.png)
+
+Find another way to convert the number.
+
+Get the string and convert it to integer do the needed procedd and again convert to string before pushing.
+
+My solution was 37 lines long. Is yours longer? Shorter?
+
+Noooo. 57 lines with comments.
+
+Exercise -49: Making sentence
+
+![image](https://user-images.githubusercontent.com/95071003/148678910-c9c5ee18-a4df-4cb5-af18-eb4f51730e93.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148802998-bc3560fb-a4ab-4708-9474-a143f91f5af6.png)
+
+Error in brackets:
+
+![image](https://user-images.githubusercontent.com/95071003/148803545-5fa866e7-edc0-4988-8755-b4582b12248f.png)
+
+skip is a keyword in ruby:
+![image](https://user-images.githubusercontent.com/95071003/148803755-dba42e19-cc9b-4ace-8049-7f77b8a2f335.png)
+
+Finally:
+
+![image](https://user-images.githubusercontent.com/95071003/148804178-4bae234b-4998-469f-9603-2afc4936baf0.png)
+
+Change the parse_ methods and try to put them into a class rather than use them just as methods. Which design do you like better?
+
+![image](https://user-images.githubusercontent.com/95071003/148804466-13e29889-033b-434d-b9f8-2f481d43be14.png)
+
+Put in class is always the best one.
+
+Make the parser more error-resistant so that you can avoid annoying your users if they type words your lexicon doesn't understand.
+
+If sometimes the user types owrd out of the dicitonary that we create , in the place of stop , if there was someother word , we can just add it as the stop word and add it to dictionary in like not_saved_word , hence when the uuser calls it again it wont annoy them.
+
+Improve the grammar by handling more things like numbers.
+
+![image](https://user-images.githubusercontent.com/95071003/148806676-2b40c05f-6444-451e-8c19-4030953635c4.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148806802-27950ec8-1b9c-480e-8043-0ee868b57ac3.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148806849-2b7e76f4-82e6-4fa4-8492-1b95366093f0.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148807359-1da547e7-747b-4e45-906e-b58d45f242a7.png)
+
+Think about how you might use this Sentence class in your game to do more fun things with a user's input.
+
+When we get user input when they are near the deadth room , the input might use this class and let them not be trapped. Hence these class may improve user game ability. 
+
+In the begining , I did not get this output , found that skip is a ruby keyword:
+
+![image](https://user-images.githubusercontent.com/95071003/148808873-7520b5c0-d715-457b-a0a9-61c033b5ba3f.png)
+
+Exercise - 50: Making a website
+
+![image](https://user-images.githubusercontent.com/95071003/148812043-82d390f6-211f-463a-9c4d-561b640f1827.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148812380-448edfe9-7968-4ec9-a8ec-a49f3c6d3146.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148813195-6fc7a3d6-57ac-489b-8e24-49833fc36aa0.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148813582-874d006f-3c82-44c0-9e8d-3545a5f8d702.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148813704-2d8c7748-7c73-4a88-8919-f92e70d84e13.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148813755-64176a90-2a54-4060-82e0-589395a632ac.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148898236-8f6ce03c-600d-432e-8655-551079995b4d.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148898346-b958bdc8-64d7-4fba-91a1-a3c6377b5033.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148898401-d8bb1287-b33b-4d5b-81ad-743c74794660.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148898501-40e8972f-8294-4fd1-98d6-5877f75e0386.png)
+
+Experiment with everything you can find there, including their example code.
+
+try to change the param variable name :
+
+![image](https://user-images.githubusercontent.com/95071003/148899018-88167064-34e5-4f85-aefc-7cfab2b68055.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148900398-a3749161-eba4-4379-9fe2-e2d3a1c9ac60.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148900444-e2f99a04-30fd-47d8-92a3-d8cbda69c785.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148900479-e03f216b-baf0-4f98-8ac9-1840b3b1a6e7.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148900572-148d94b9-27b9-47a3-a8f0-51aa2195534f.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148900594-cff977d7-6220-41cb-afdc-76e768596d95.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148900688-4fcb566c-73e8-46ca-b1db-f5729332517c.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148900759-70addf68-6405-4291-8d5a-55de71bdafba.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148900796-d6a54413-6372-4093-9c92-65497937dccc.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148900827-e332e70b-8eb7-4398-a808-685d9d8dfb51.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148901025-855c2e5a-8e7c-4551-be9b-1d183a7fcfe2.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148901068-621ed69b-b031-4376-bc6b-48f1139fe699.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148901400-d641eb28-8920-49fc-8bc1-5469cd6b3630.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148901438-d79fec0d-0596-4742-8f04-702ede6183e7.png)
+
+Put some content in static/howdy.html and go to http://localhost:8080/howdy.html. If it doesn't work, make sure your app.rb file has the correct :public_folder setting.
+
+![image](https://user-images.githubusercontent.com/95071003/148901827-2d0a1963-9673-4e8c-871b-d2edaff71b98.png)
+
+![image](https://user-images.githubusercontent.com/95071003/148901892-49afb763-4134-4dfa-a8a9-e2700d8a84b6.png)
+
 after typing form:
 
 ![image](https://user-images.githubusercontent.com/95071003/148960818-9e0614c0-1dc8-468d-8336-c840178d5e3a.png)
@@ -812,8 +1104,42 @@ Read even more about HTML, and give the simple form a better layout. It helps to
 
 ![image](https://user-images.githubusercontent.com/95071003/148975332-663a2280-1150-444b-8427-2f5a379032e4.png)
 
-This one is hard, but try to figure out how you'd do a file upload form so that you can upload an image and save it to disk.
 
+Exercise -52:
 
+![image](https://user-images.githubusercontent.com/95071003/149513827-006d3b6b-0310-4e38-93f3-8ed763da1ee9.png)
 
+![image](https://user-images.githubusercontent.com/95071003/149513850-ee885cf7-c60d-4c3f-8c44-6f4e3c1d1cc3.png)
 
+![image](https://user-images.githubusercontent.com/95071003/149513933-2ce235ff-bd72-4da4-a987-252a47428a6c.png)
+
+verifying if these cases work:
+
+![image](https://user-images.githubusercontent.com/95071003/149513781-b67d30de-a596-4bf4-bf0a-2c78cfed114f.png)
+
+![image](https://user-images.githubusercontent.com/95071003/149535535-98341377-a878-4b4b-8244-247c8d62c98c.png)
+
+![image](https://user-images.githubusercontent.com/95071003/149535575-1826fcd9-7055-4206-8d69-7a691b2ebfa2.png)
+
+![image](https://user-images.githubusercontent.com/95071003/149535633-5e1e4a77-7874-49b1-b82a-d95293270301.png)
+
+![image](https://user-images.githubusercontent.com/95071003/149535690-e83fa5d1-3cb9-47e1-b1c0-943b47acf9d6.png)
+
+![image](https://user-images.githubusercontent.com/95071003/149535794-4f665315-8373-4b3e-9c58-91492631e08c.png)
+
+![image](https://user-images.githubusercontent.com/95071003/149535834-b24e1579-261e-4da7-858a-aa64a31a6fe7.png)
+
+clicking play again goes to start again
+
+![image](https://user-images.githubusercontent.com/95071003/149535920-5fc3b298-ae3c-402e-b132-fb6af482a108.png)
+
+entering wrong answer:
+
+![image](https://user-images.githubusercontent.com/95071003/149536013-9f6ce18d-42b3-4b8f-93f9-493ce9b21ae1.png)
+
+project file tree:
+
+![image](https://user-images.githubusercontent.com/95071003/149536356-a7ba60bd-27db-4673-bd95-2874460f0abd.png)
+
+if you leave any session open and close the browser , when ou the open the same url again , session continues from where we left.
+but if we  give just '/' game starts from the begining.
